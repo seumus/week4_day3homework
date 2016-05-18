@@ -1,0 +1,10 @@
+<h1><a href="/homepage">Go back home.</a><br></h1>
+<% @albums.each do |album|  %>
+  <b>Album Name:</b>
+  <p><a href= "/albums/<%= album.id %>"><%= album.name %></a></p>
+  <b>Artist:</b>
+  <p><a href= "/albums/<%= album.id %>"><%= album.artist.name %></a></p>
+  <hr>
+
+
+<% end%>

@@ -1,0 +1,30 @@
+body {
+  /*font-size: 2em;*/
+  font-weight: bold;
+  font-family: Lobster Two;
+  background-color: red;
+  background-image: url('images/music1.jpg');
+  text-align: center;
+
+}
+
+.homepage {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Lobster Two;
+  background-color: rgba(178,108,105,0.6);
+  padding: 2%;
+}
+
+h1 {
+  font-size: 4em;
+  color: black;
+}
+
+a {
+  
+}
+
+a:clicked {
+  color: brown;
+}
